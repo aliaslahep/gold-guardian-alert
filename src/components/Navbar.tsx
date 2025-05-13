@@ -34,49 +34,49 @@ const Navbar = () => {
   return (
     <header className={cn(
       'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-      isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+      isScrolled ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'
     )}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Shield className="h-8 w-8 text-primary mr-2" />
-          <span className="text-xl font-bold text-secondary">RupbeeGuard</span>
+          <Shield className="h-10 w-10 text-primary mr-3" />
+          <span className="text-2xl font-bold text-secondary">RupbeeGuard</span>
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-6">
+        <nav className="hidden md:flex items-center space-x-8">
           <button 
             onClick={() => scrollToSection('home')}
-            className="text-secondary hover:text-primary font-medium transition-colors"
+            className="text-secondary hover:text-primary font-medium transition-colors py-2"
           >
             Home
           </button>
           <button 
             onClick={() => scrollToSection('pledger-info')}
-            className="text-secondary hover:text-primary font-medium transition-colors"
+            className="text-secondary hover:text-primary font-medium transition-colors py-2"
           >
-            About
+            Gold Pledger Info
           </button>
           <button 
             onClick={() => scrollToSection('spot-fake-gold')}
-            className="text-secondary hover:text-primary font-medium transition-colors"
+            className="text-secondary hover:text-primary font-medium transition-colors py-2"
           >
-            How It Works
+            How to Spot Fake Gold
           </button>
           <button 
             onClick={() => scrollToSection('report')}
-            className="text-secondary hover:text-primary font-medium transition-colors"
+            className="text-secondary hover:text-primary font-medium transition-colors py-2"
           >
             Report Fake Gold
           </button>
           <button 
             onClick={() => scrollToSection('resources')}
-            className="text-secondary hover:text-primary font-medium transition-colors"
+            className="text-secondary hover:text-primary font-medium transition-colors py-2"
           >
             Resources
           </button>
           <button 
             onClick={() => scrollToSection('contact')}
-            className="text-secondary hover:text-primary font-medium transition-colors"
+            className="text-secondary hover:text-primary font-medium transition-colors py-2"
           >
             Contact
           </button>
@@ -98,37 +98,37 @@ const Navbar = () => {
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <button 
               onClick={() => scrollToSection('home')}
-              className="text-secondary hover:text-primary font-medium py-2 transition-colors"
+              className="text-secondary hover:text-primary font-medium py-3 transition-colors"
             >
               Home
             </button>
             <button 
               onClick={() => scrollToSection('pledger-info')}
-              className="text-secondary hover:text-primary font-medium py-2 transition-colors"
+              className="text-secondary hover:text-primary font-medium py-3 transition-colors"
             >
               Gold Pledger Info
             </button>
             <button 
               onClick={() => scrollToSection('spot-fake-gold')}
-              className="text-secondary hover:text-primary font-medium py-2 transition-colors"
+              className="text-secondary hover:text-primary font-medium py-3 transition-colors"
             >
               How to Spot Fake Gold
             </button>
             <button 
               onClick={() => scrollToSection('report')}
-              className="text-secondary hover:text-primary font-medium py-2 transition-colors"
+              className="text-secondary hover:text-primary font-medium py-3 transition-colors"
             >
               Report Fake Gold
             </button>
             <button 
               onClick={() => scrollToSection('resources')}
-              className="text-secondary hover:text-primary font-medium py-2 transition-colors"
+              className="text-secondary hover:text-primary font-medium py-3 transition-colors"
             >
               Resources
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-secondary hover:text-primary font-medium py-2 transition-colors"
+              className="text-secondary hover:text-primary font-medium py-3 transition-colors"
             >
               Contact
             </button>
