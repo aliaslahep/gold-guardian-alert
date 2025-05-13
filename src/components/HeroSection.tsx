@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { ArrowRight, Shield, Alert, Info } from 'lucide-react';
+import { ArrowRight, Shield, AlertTriangle, Info } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -58,7 +58,7 @@ const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
           <div className="lg:w-1/2">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
-              <Alert className="h-4 w-4" />
+              <AlertTriangle className="h-4 w-4" />
               <span className="text-sm font-medium">Fight Against Fake Gold Fraud</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary leading-tight mb-6">
