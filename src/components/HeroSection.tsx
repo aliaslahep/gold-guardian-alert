@@ -58,7 +58,7 @@ const HeroSection = () => {
   <span className="text-purple-300">await</span> app.<span className="text-blue-300">deploy</span>();
 {'}'}
 
-deployApp().<span className="text-blue-300">then</span>(() => {'{'}
+deployApp().<span className="text-blue-300">then</span>(() {'=>'} {'{'}
   console.<span className="text-blue-300">log</span>(<span className="text-green-300">'App deployed!'</span>);
 {'}'});
                 </pre>
