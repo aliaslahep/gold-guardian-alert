@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Shield, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
@@ -38,47 +38,49 @@ const Navbar = () => {
     )}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <span className="text-xl font-bold text-primary">CodeFlow</span>
+          <Shield className="h-8 w-8 text-primary mr-2" />
+          <span className="text-xl font-bold text-secondary">GoldGuard</span>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
           <button 
-            onClick={() => scrollToSection('features')}
+            onClick={() => scrollToSection('home')}
             className="text-secondary hover:text-primary font-medium transition-colors"
           >
-            Features
+            Home
           </button>
           <button 
-            onClick={() => scrollToSection('benefits')}
+            onClick={() => scrollToSection('pledger-info')}
             className="text-secondary hover:text-primary font-medium transition-colors"
           >
-            Benefits
+            Gold Pledger Info
           </button>
           <button 
-            onClick={() => scrollToSection('pricing')}
+            onClick={() => scrollToSection('spot-fake-gold')}
             className="text-secondary hover:text-primary font-medium transition-colors"
           >
-            Pricing
+            How to Spot Fake Gold
           </button>
           <button 
-            onClick={() => scrollToSection('testimonials')}
+            onClick={() => scrollToSection('report')}
             className="text-secondary hover:text-primary font-medium transition-colors"
           >
-            Testimonials
+            Report Fake Gold
           </button>
-        </nav>
-
-        <div className="hidden md:flex items-center space-x-4">
-          <Button 
-            variant="outline" 
-            className="text-secondary hover:text-primary"
+          <button 
+            onClick={() => scrollToSection('resources')}
+            className="text-secondary hover:text-primary font-medium transition-colors"
+          >
+            Resources
+          </button>
+          <button 
             onClick={() => scrollToSection('contact')}
+            className="text-secondary hover:text-primary font-medium transition-colors"
           >
             Contact
-          </Button>
-          <Button>Get Started</Button>
-        </div>
+          </button>
+        </nav>
 
         <Button 
           variant="ghost" 
@@ -95,28 +97,34 @@ const Navbar = () => {
         <div className="md:hidden bg-white shadow-lg">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <button 
-              onClick={() => scrollToSection('features')}
+              onClick={() => scrollToSection('home')}
               className="text-secondary hover:text-primary font-medium py-2 transition-colors"
             >
-              Features
+              Home
             </button>
             <button 
-              onClick={() => scrollToSection('benefits')}
+              onClick={() => scrollToSection('pledger-info')}
               className="text-secondary hover:text-primary font-medium py-2 transition-colors"
             >
-              Benefits
+              Gold Pledger Info
             </button>
             <button 
-              onClick={() => scrollToSection('pricing')}
+              onClick={() => scrollToSection('spot-fake-gold')}
               className="text-secondary hover:text-primary font-medium py-2 transition-colors"
             >
-              Pricing
+              How to Spot Fake Gold
             </button>
             <button 
-              onClick={() => scrollToSection('testimonials')}
+              onClick={() => scrollToSection('report')}
               className="text-secondary hover:text-primary font-medium py-2 transition-colors"
             >
-              Testimonials
+              Report Fake Gold
+            </button>
+            <button 
+              onClick={() => scrollToSection('resources')}
+              className="text-secondary hover:text-primary font-medium py-2 transition-colors"
+            >
+              Resources
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
@@ -124,7 +132,6 @@ const Navbar = () => {
             >
               Contact
             </button>
-            <Button className="w-full">Get Started</Button>
           </div>
         </div>
       )}
