@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <Shield className="h-8 w-8 text-primary mr-2" />
-          <span className="text-xl font-bold text-secondary">GoldGuard</span>
+          <span className="text-xl font-bold text-secondary">RupbeeGuard</span>
         </div>
 
         {/* Desktop Navigation */}
@@ -54,13 +54,13 @@ const Navbar = () => {
             onClick={() => scrollToSection('pledger-info')}
             className="text-secondary hover:text-primary font-medium transition-colors"
           >
-            Gold Pledger Info
+            About
           </button>
           <button 
             onClick={() => scrollToSection('spot-fake-gold')}
             className="text-secondary hover:text-primary font-medium transition-colors"
           >
-            How to Spot Fake Gold
+            How It Works
           </button>
           <button 
             onClick={() => scrollToSection('report')}
