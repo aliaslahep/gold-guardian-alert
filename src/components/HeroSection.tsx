@@ -59,7 +59,7 @@ const HeroSection = () => {
           <div className="lg:w-1/2">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
               <AlertTriangle className="h-4 w-4" />
-              <span className="text-sm font-medium">Fight Against Fake Gold Fraud</span>
+              <span className="text-sm font-medium">Search a person who pledges Fake gold in finance companies</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary leading-tight mb-6">
               Unmask Fake Gold Pledgers and <span className="text-primary">Protect</span> Your Assets
@@ -83,7 +83,7 @@ const HeroSection = () => {
               </Button>
             </div>
           </div>
-          <div className="lg:w-1/2 flex justify-center">
+          {/* <div className="lg:w-1/2 flex justify-center">
             <div className="relative w-full max-w-md">
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-primary/10 rounded-full filter blur-md animate-pulse"></div>
               <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100 relative z-10">
@@ -96,7 +96,7 @@ const HeroSection = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
