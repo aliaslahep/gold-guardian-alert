@@ -1,8 +1,8 @@
-
 import React, { useEffect, useState } from 'react';
-import { ArrowRight, Shield, AlertTriangle, Info } from 'lucide-react';
+import { ArrowRight, Shield, AlertTriangle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import logo_only from '@/assets/rulogo.png';
+import bg_home from '@/assets/bg_home.png';
 
 const HeroSection = () => {
   const [offset, setOffset] = useState(0);
@@ -30,6 +30,16 @@ const HeroSection = () => {
       className="pt-36 pb-24 md:pt-44 md:pb-32 bg-gradient-to-b from-primary/5 to-white relative overflow-hidden"
       style={{ position: 'relative' }}
     >
+      <img
+          src={bg_home}
+          alt="logo"
+          className="absolute top-1/2 left-1/2 transform 
+            -translate-x-[30%] -translate-y-[60%] 
+            md:left-auto md:right-[0px] md:translate-x-[10px] 
+            lg:translate-x-[90px] lg:translate-y-[-50%] 
+            w-[500px] md:w-[700px] lg:w-[700px] 
+            h-auto opacity-10 pointer-events-none select-none"
+        />
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div 
@@ -55,9 +65,22 @@ const HeroSection = () => {
         ></div>
       </div>
 
+      {/* Background logo image on the right side */}
+      {/* <img
+        src={logo_only}
+        alt="logo"
+        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[60%] lg:top-1/2 lg:left-auto lg:right-[100px] lg:translate-x-0 lg:translate-y-[-50%] h-[400px] md:h-[500px] lg:h-[500px] opacity-10 pointer-events-none select-none"
+      /> */}
+        
+
+
+
+
+
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
-          <div className="lg:w-1/2">
+        <div className="lg:w-[65%] lg:mt-0 lg:pl-[130px] lg:-translate-y-10">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
               <AlertTriangle className="h-4 w-4" />
               <span className="text-sm font-medium">Search a person who pledges Fake gold in finance companies</span>
@@ -84,6 +107,8 @@ const HeroSection = () => {
               </Button>
             </div>
           </div>
+
+          {/* Optional info card (currently commented) */}
           {/* <div className="lg:w-1/2 flex justify-center">
             <div className="relative w-full max-w-md">
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-primary/10 rounded-full filter blur-md animate-pulse"></div>

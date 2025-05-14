@@ -47,7 +47,7 @@ const Navbar = () => {
           {/* <Shield className="h-10 w-10 text-primary mr-3" />
           <span className="text-2xl font-bold text-secondary">RupbeeGuard</span> */}
 
-          <img src={logo} alt="logo" className="h-10 md:h-12 lg:h-16" />
+          <img src={logo} alt="logo" className="h-10 md:h-12 lg:h-16 ml-10 lg:ml-5" />
         </div>
 
         {/* Desktop and Tablet Navigation */}
