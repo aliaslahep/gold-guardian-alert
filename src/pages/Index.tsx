@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import Footer from '@/components/Footer';
+import ninja_img from '@/assets/ninja_img.png'
 
 const Index = () => {
   return (
@@ -11,7 +12,15 @@ const Index = () => {
       <HeroSection />
       
       {/* Gold Pledger Info Section */}
-      <section id="pledger-info" className="py-16 md:py-24 bg-white">
+      <section id="pledger-info" className="relative py-16 md:py-24 bg-white">
+      <img
+        src={ninja_img}
+        alt="logo"
+        className="absolute top-1/2 lg:top-1/2 left-[10px] lg:left-[50px] 
+          transform -translate-y-1/2  
+          w-[400px] md:w-[400px] lg:w-[700px] 
+          h-auto opacity-10 pointer-events-none select-none"
+      />
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6 text-center">
@@ -134,6 +143,10 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      <div className="bg-white text-center py-4 text-sm text-gray-600">
+        Co-powered by <span className="font-semibold text-secondary">Nidhi Companies Association Kerala</span>
+      </div>
 
       <Footer />
     </div>
