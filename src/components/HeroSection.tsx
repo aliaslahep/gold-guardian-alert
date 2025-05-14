@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { ArrowRight, Shield, AlertTriangle, Info } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import logo_only from '@/assets/rulogo.png';
 
 const HeroSection = () => {
   const [offset, setOffset] = useState(0);
