@@ -7,12 +7,12 @@ import ninja_img from '@/assets/ninja_img.png'
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background dark:bg-gray-900">
       <Navbar />
       <HeroSection />
       
       {/* Gold Pledger Info Section */}
-      <section id="pledger-info" className="relative py-16 md:py-24 bg-white">
+      <section id="pledger-info" className="relative py-16 md:py-24 bg-white dark:bg-gray-800">
       <img
         src={ninja_img}
         alt="logo"
@@ -23,15 +23,15 @@ const Index = () => {
       />
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-secondary dark:text-white mb-6 text-center">
               What is a Fake Gold Pledger?
             </h2>
             <div className="w-16 h-1 bg-primary mx-auto mb-8"></div>
             <div className="prose max-w-none">
-              <p className="text-lg text-gray-700 mb-4">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                 Have you ever wondered about the darker side of finance? While most people engage in honest transactions, some individuals seek to exploit systems for personal gain. One alarming trend is the rise of fake gold pledgers. These are individuals who pledge counterfeit gold as collateral in financial institutions, putting both lenders and genuine borrowers at risk.
               </p>
-              <p className="text-gray-700 mb-4 italic">
+              <p className="text-gray-700 dark:text-gray-300 mb-4 italic">
                 "A fake gold pledger is someone who presents counterfeit gold as security to access loans or credit. This act can severely undermine the integrity of financial institutions. These individuals often use sophisticated methods to create replicas that closely resemble genuine gold. They may even employ falsified documents to support their claims, making it difficult for lenders to spot deception at first glance. As more people seek quick cash solutions, the risk of encountering fake gold pledgers has increased significantly. It is crucial for both borrowers and lenders alike to stay vigilant. Being aware of how these scammers operate helps in identifying red flags. Simple steps like verifying credentials or conducting thorough assessments can go a long way in safeguarding your assets from deceitful practices."
               </p>
             </div>
@@ -40,19 +40,19 @@ const Index = () => {
       </section>
 
       {/* How to Spot Fake Gold Section */}
-      <section id="spot-fake-gold" className="py-16 md:py-24 bg-gray-50">
+      <section id="spot-fake-gold" className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-secondary dark:text-white mb-6 text-center">
               How to Identify Fake Gold and Protect Your Finances
             </h2>
             <div className="w-16 h-1 bg-primary mx-auto mb-8"></div>
             <div className="prose max-w-none">
-              <p className="text-lg text-gray-700 mb-6">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
                 Searching for fake gold can be challenging. The market is flooded with objects that appear genuine but hold little or no value. Here's what you can do to protect yourself:
               </p>
-              <h3 className="text-xl font-semibold text-secondary mt-6 mb-4">Use the Right Tools:</h3>
-              <ul className="list-disc pl-6 mb-6 space-y-2">
+              <h3 className="text-xl font-semibold text-secondary dark:text-white mt-6 mb-4">Use the Right Tools:</h3>
+              <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700 dark:text-gray-300">
                 <li>
                   <strong>Acid Tests:</strong> A reliable method for testing gold purity.
                 </li>
@@ -63,10 +63,10 @@ const Index = () => {
                   <strong>Document Verification:</strong> Always double-check the accompanying documents to ensure they match the gold you're dealing with.
                 </li>
               </ul>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 dark:text-gray-300 mb-4">
                 Inspect the Physical Properties: Gold has unique weight and density characteristics that counterfeiters can't easily replicate.
               </p>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 dark:text-gray-300 mb-4">
                 Leverage Technology: Platforms and apps exist to cross-check pledged gold against known databases and reports of fraudulent activities.
               </p>
             </div>
@@ -75,19 +75,19 @@ const Index = () => {
       </section>
 
       {/* Report Fake Gold Section */}
-      <section id="report" className="py-16 md:py-24 bg-white">
+      <section id="report" className="py-16 md:py-24 bg-white dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-secondary dark:text-white mb-6 text-center">
               Help Us Fight Fraud: Report Fake Gold Pledgers
             </h2>
             <div className="w-16 h-1 bg-primary mx-auto mb-8"></div>
             <div className="prose max-w-none">
-              <p className="text-lg text-gray-700 mb-6">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
                 When you encounter suspicious gold pledging activities, it's vital to report them. Here's how you can contribute to fighting fraud:
               </p>
-              <h3 className="text-xl font-semibold text-secondary mt-6 mb-4">Ways to Report:</h3>
-              <ul className="list-disc pl-6 mb-6 space-y-2">
+              <h3 className="text-xl font-semibold text-secondary dark:text-white mt-6 mb-4">Ways to Report:</h3>
+              <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700 dark:text-gray-300">
                 <li>
                   <strong>Upload Reports:</strong> Share details of any encounters with suspected fake gold pledgers.
                 </li>
@@ -95,12 +95,12 @@ const Index = () => {
                   <strong>Community Reporting:</strong> Contribute to a shared database that helps others avoid falling victim to fraudulent activities.
                 </li>
               </ul>
-              <p className="text-gray-700 mb-6">
+              <p className="text-gray-700 dark:text-gray-300 mb-6">
                 This platform helps build a community of awareness and action, creating a safer financial environment for everyone.
               </p>
-              <div className="bg-gray-50 p-6 rounded-lg mt-8">
-                <h4 className="text-lg font-semibold mb-4 text-secondary">Report Form Coming Soon</h4>
-                <p className="text-gray-600">
+              <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg mt-8">
+                <h4 className="text-lg font-semibold mb-4 text-secondary dark:text-white">Report Form Coming Soon</h4>
+                <p className="text-gray-600 dark:text-gray-300">
                   Our comprehensive reporting form will be available shortly, allowing you to easily submit details about suspicious gold and potential fraud cases.
                 </p>
               </div>
@@ -110,19 +110,19 @@ const Index = () => {
       </section>
 
       {/* Resources Section */}
-      <section id="resources" className="py-16 md:py-24 bg-gray-50">
+      <section id="resources" className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-secondary dark:text-white mb-6 text-center">
               Tools and Resources to Spot Fake Gold
             </h2>
             <div className="w-16 h-1 bg-primary mx-auto mb-8"></div>
             <div className="prose max-w-none">
-              <p className="text-lg text-gray-700 mb-6">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
                 To stay one step ahead, it's crucial to have access to reliable resources. Here's a list of tools, articles, and guides that will help you:
               </p>
-              <h3 className="text-xl font-semibold text-secondary mt-6 mb-4">Available Resources:</h3>
-              <ul className="list-disc pl-6 mb-6 space-y-2">
+              <h3 className="text-xl font-semibold text-secondary dark:text-white mt-6 mb-4">Available Resources:</h3>
+              <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700 dark:text-gray-300">
                 <li>
                   <strong>Gold Testing Guides:</strong> Tutorials on using acid tests, electronic testers, and other methods to verify gold's authenticity.
                 </li>
@@ -136,17 +136,13 @@ const Index = () => {
                   <strong>Community Discussions:</strong> Join forums to share insights and gain advice from other users.
                 </li>
               </ul>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 dark:text-gray-300 mb-4">
                 By staying informed and using the tools provided, you can ensure your transactions are safe and secure.
               </p>
             </div>
           </div>
         </div>
       </section>
-
-      <div className="bg-white text-center py-4 text-sm text-gray-600">
-        Co-powered by <span className="font-semibold text-secondary">Nidhi Companies Association Kerala</span>
-      </div>
 
       <Footer />
     </div>

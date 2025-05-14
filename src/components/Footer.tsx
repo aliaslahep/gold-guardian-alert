@@ -106,7 +106,16 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+          {/* Updated co-powered by section */}
+          <div className="mt-12 pt-6 border-t border-white/10 text-center">
+            <div className="flex flex-col md:flex-row items-center justify-center mb-6">
+              <Shield className="h-5 w-5 text-primary mr-2" />
+              <span className="text-white font-medium">Co-powered by</span>
+              <span className="font-semibold text-white ml-2">Nidhi Companies Association Kerala</span>
+            </div>
+          </div>
+          
+          <div className="border-t border-white/10 mt-6 pt-8 flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
               © 2025 GoldGuard. All rights reserved.
             </div>
