@@ -20,10 +20,10 @@ const Index = () => {
             <div className="w-16 h-1 bg-primary mx-auto mb-8"></div>
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 mb-4">
-                Have you ever wondered about the darker side of finance? While most people engage in honest transactions, some individuals seek to exploit systems for personal gain. One alarming trend is the rise of fake gold pledgers. These individuals present counterfeit gold as collateral to obtain loans or credit from financial institutions, undermining the integrity of the system and putting both borrowers and lenders at risk.
+                Have you ever wondered about the darker side of finance? While most people engage in honest transactions, some individuals seek to exploit systems for personal gain. One alarming trend is the rise of fake gold pledgers. These are individuals who pledge counterfeit gold as collateral in financial institutions, putting both lenders and genuine borrowers at risk.
               </p>
-              <p className="text-gray-700 mb-4">
-                Fake gold can be difficult to spot, and these pledgers use sophisticated methods to create replicas that closely resemble genuine gold. They might even forge documents to support their claims, making it even harder for lenders to identify fraud right away. As more individuals seek quick financial solutions, the risk of encountering fake gold pledgers has increased, making it critical for both lenders and borrowers to stay vigilant.
+              <p className="text-gray-700 mb-4 italic">
+                "A fake gold pledger is someone who presents counterfeit gold as security to access loans or credit. This act can severely undermine the integrity of financial institutions. These individuals often use sophisticated methods to create replicas that closely resemble genuine gold. They may even employ falsified documents to support their claims, making it difficult for lenders to spot deception at first glance. As more people seek quick cash solutions, the risk of encountering fake gold pledgers has increased significantly. It is crucial for both borrowers and lenders alike to stay vigilant. Being aware of how these scammers operate helps in identifying red flags. Simple steps like verifying credentials or conducting thorough assessments can go a long way in safeguarding your assets from deceitful practices."
               </p>
             </div>
           </div>
