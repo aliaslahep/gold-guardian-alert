@@ -106,7 +106,6 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Updated co-powered by section */}
           <div className="mt-12 pt-6 border-t border-white/10 text-center">
             <div className="flex flex-col md:flex-row items-center justify-center mb-6">
               <Shield className="h-5 w-5 text-primary mr-2" />
