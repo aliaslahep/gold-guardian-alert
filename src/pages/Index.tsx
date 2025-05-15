@@ -3,7 +3,6 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import Footer from '@/components/Footer';
-import ninja_img from '@/assets/ninja_img.png'
 
 const Index = () => {
   return (
@@ -12,7 +11,7 @@ const Index = () => {
       <HeroSection />
       
       {/* Gold Pledger Info Section */}
-      <section id="pledger-info" className="relative py-16 md:py-24 bg-white dark:bg-gray-800">
+      <section id="pledger-info" className="relative py-16 md:py-24 bg-white">
       <img
         src={ninja_img}
         alt="logo"
