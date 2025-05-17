@@ -49,7 +49,7 @@ const Index = () => {
         <img
           src={ninja5_img}
           alt="logo"
-          className="absolute top-1/2 lg:top-1/2 left-0 lg:left-[45%]
+          className="absolute top-1/2 lg:top-1/2 left-0 md:left-[45%] lg:left-[45%]
             transform -translate-y-1/2  
             w-[400px] md:w-[400px] lg:w-[700px] 
             h-auto opacity-15 pointer-events-none select-none"
@@ -92,7 +92,7 @@ const Index = () => {
       <img
           src={ninja2_img}
           alt="logo"
-          className="absolute top-1/2 lg:top-1/2 left-[-30px] lg:left-[20%]
+          className="absolute top-1/2 lg:top-1/2 left-[-30px] md:left-[20%] lg:left-[20%]
             transform -translate-y-1/2  
             w-[400px] md:w-[400px] lg:w-[700px] 
             h-auto opacity-15 pointer-events-none select-none"
@@ -135,7 +135,7 @@ const Index = () => {
         <img
           src={ninja4_img}
           alt="logo"
-          className="absolute top-1/2 lg:top-1/2 left-0 lg:left-[30%]
+          className="absolute top-1/2 lg:top-1/2 left-0 md:left-[20%] lg:left-[30%]
             transform -translate-y-1/2  
             w-[400px] md:w-[400px] lg:w-[500px] 
             h-auto opacity-10 pointer-events-none select-none"
