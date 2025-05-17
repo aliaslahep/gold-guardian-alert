@@ -18,7 +18,7 @@ const ThemeProviderContext = createContext<ThemeProviderState>(initialState);
 export function ThemeProvider({
   children,
 }: ThemeProviderProps) {
-  const value = {
+  const value: ThemeProviderState = {
     theme: "light",
   };
 
