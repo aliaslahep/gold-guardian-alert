@@ -3,7 +3,12 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import Footer from '@/components/Footer';
-import ninja_img from '@/assets/ninja_img.png'
+import ninja_img from '@/assets/ninja_img.png';
+import ninja2_img from '@/assets/ninja2_img.png';
+import ninja3_img from '@/assets/ninja3_img.png';
+import ninja4_img from '@/assets/ninja4_img.png';
+import ninja5_img from '@/assets/ninja5_img.png';
+
 
 const Index = () => {
   return (
@@ -40,7 +45,15 @@ const Index = () => {
       </section>
 
       {/* How to Spot Fake Gold Section */}
-      <section id="spot-fake-gold" className="py-16 md:py-24 bg-gray-50">
+      <section id="spot-fake-gold" className="relative py-16 md:py-24 bg-gray-50">
+        <img
+          src={ninja5_img}
+          alt="logo"
+          className="absolute top-1/2 lg:top-1/2 left-0 lg:left-[45%]
+            transform -translate-y-1/2  
+            w-[400px] md:w-[400px] lg:w-[700px] 
+            h-auto opacity-15 pointer-events-none select-none"
+        />
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6 text-center">
@@ -75,7 +88,15 @@ const Index = () => {
       </section>
 
       {/* Report Fake Gold Section */}
-      <section id="report" className="py-16 md:py-24 bg-white">
+      <section id="report" className="relative py-16 md:py-24 bg-white">
+      <img
+          src={ninja2_img}
+          alt="logo"
+          className="absolute top-1/2 lg:top-1/2 left-[-30px] lg:left-[20%]
+            transform -translate-y-1/2  
+            w-[400px] md:w-[400px] lg:w-[700px] 
+            h-auto opacity-15 pointer-events-none select-none"
+        />
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6 text-center">
@@ -110,7 +131,15 @@ const Index = () => {
       </section>
 
       {/* Resources Section */}
-      <section id="resources" className="py-16 md:py-24 bg-gray-50">
+      <section id="resources" className="relative py-16 md:py-24 bg-gray-50">
+        <img
+          src={ninja4_img}
+          alt="logo"
+          className="absolute top-1/2 lg:top-1/2 left-0 lg:left-[30%]
+            transform -translate-y-1/2  
+            w-[400px] md:w-[400px] lg:w-[500px] 
+            h-auto opacity-10 pointer-events-none select-none"
+        />
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6 text-center">
