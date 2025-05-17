@@ -1,8 +1,10 @@
+
 import React, { useState, useEffect } from 'react';
 import { Shield, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import logo from '@/assets/rupbee guard.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,10 +46,10 @@ const Navbar = () => {
     )}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          {/* <Shield className="h-10 w-10 text-primary mr-3" />
-          <span className="text-2xl font-bold text-secondary">RupbeeGuard</span> */}
-
-          <img src={logo} alt="logo" className="h-10 md:h-12 lg:h-16 ml-10 lg:ml-5" />
+          {/* Wrap logo with Link to home */}
+          <Link to="/" onClick={() => scrollToSection('home')}>
+            <img src={logo} alt="logo" className="h-10 md:h-12 lg:h-16 ml-10 lg:ml-5 cursor-pointer" />
+          </Link>
         </div>
 
         {/* Desktop and Tablet Navigation */}
