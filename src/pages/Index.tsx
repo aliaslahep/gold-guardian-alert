@@ -16,7 +16,7 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       
-      {/* Gold Pledger Info Section */}
+      {/* Gold Pledger Info Section  */}
       <section id="pledger-info" className="relative py-16 md:py-24 bg-white">
       <img
         src={ninja_img}
